@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated supplier data
+attachment_data/
+documents/
+extracted_data/
+validation_results/
+
+# Local output files
+supplier validation output samsotech_llc.txt
+trade_license.pdf
